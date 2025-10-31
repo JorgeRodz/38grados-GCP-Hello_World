@@ -10,7 +10,7 @@ public class HelloWorldApplication {
     
     @GetMapping("/")
     public String hello() {
-        return "Parte 1 guia: Hola Mundo 🌎 desde Cloud Run ☁️🏃🏻‍➡️ \nParte 2 guia: Cloud Build ☁️🏗️ a sido activado satisfactoriamente";
+        return "Parte 1 guia: Hola Mundo 🌎 desde Cloud Run ☁️🏃🏻‍➡️ \nParte 2 guia: Cloud Build ☁️🏗️ a sido activado satisfactoriamente Parte 3: Visualizando el recorrido completo.";
     }
 
     public static void main(String[] args) {
