@@ -1,0 +1,39 @@
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+.mvn/wrapper/maven-wrapper downloader.jar
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Spring Boot
+application*.yml
+application*.yaml
+application*.properties
+*.db
+
+# IntelliJ IDEA / Eclipse / VS Code
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.vscode/
+
+# Logs
+*.log
+logs/
+log/
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Cloud / Build
+.env
+*.local
+docker-compose.yml
