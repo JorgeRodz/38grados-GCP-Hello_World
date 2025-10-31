@@ -1,4 +1,4 @@
-package main.java.com.example.hello;
+package com.example.hello;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -10,7 +10,7 @@ public class HelloWorldApplication {
     
     @GetMapping("/")
     public String hello() {
-        return "Hola Mundo 🌎 desde Cloud Run ☁️🏃🏻‍➡️";
+        return "Parte 1 guia: Hola Mundo 🌎 desde Cloud Run ☁️🏃🏻‍➡️ \nParte 2 guia: Cloud Build ☁️🏗️ a sido activado satisfactoriamente";
     }
 
     public static void main(String[] args) {
