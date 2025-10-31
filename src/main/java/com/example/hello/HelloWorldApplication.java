@@ -7,10 +7,10 @@ import org.springframework.web.bind.annotation.*;
 @SpringBootApplication
 @RestController
 public class HelloWorldApplication {
-    
+
     @GetMapping("/")
     public String hello() {
-        return "Parte 1 guia: Hola Mundo 🌎 desde Cloud Run ☁️🏃🏻‍➡️ \nParte 2 guia: Cloud Build ☁️🏗️ a sido activado satisfactoriamente Parte 3: Visualizando el recorrido completo.";
+        return "Parte 1 guia: Hola Mundo 🌎 desde Cloud Run ☁️🏃🏻‍➡️ \nParte 2 guia: Cloud Build ☁️🏗️ a sido activado satisfactoriamenteaia. Parte 3: Visualizando el recorrido completo. Parte 4: Haciendo deploy desde mi local";
     }
 
     public static void main(String[] args) {
